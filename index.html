@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form">
+            <h1>FORMULARIO MENSUALIDAD GYM</h1>
+            <fieldset>
+                <legend>Información personal</legend>
+                <label for="Nombre">Nombre completo</label>
+                <input type="text"id = "Nombre" required minlength="3" maxlength="30">
+                <label for="Correo">Correo electronico</label>
+                <input type="email" id="Correo" required>
+                <label for="Fecha">Fecha de nacimiento</label>
+                <input type="date" id="Fecha" required>
+                <label for="Password">Contraseña</label>
+                <input type="Password" id="Password" required minlength="7">
+                <fieldset>
+
+                </fieldset>
+                <legend>Información de contacto</legend>
+                <label for="Telefono">Telefono</label>
+                <input type="text" id="Telefono" required pattern="[0-9]{10}" placeholder="10 digitos">
+                
+                <label for="usuario">Nombre de usuario</label>
+                <input type="text" id="usuario" required minlength="3" maxlength="13">
+            </fieldset>
+
+            <button type="submit">Enviar</button>
+            
+        </form>
+     </div>
+     <div>
+        
+        <img src="imagen gym.avif" alt="Mensualidad gym">
+
+
+     </div>
+
+    
+</body>
+</html>
